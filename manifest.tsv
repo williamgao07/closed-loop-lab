@@ -1,0 +1,8 @@
+# Repos this work spans, and the commit each was last verified at together.
+# Columns: name <TAB> path <TAB> upstream <TAB> fork <TAB> branch <TAB> sha
+# `fork` may be "-" for a read-only dependency we never patch.
+# Re-pin with ./pin.sh after a verified run; commit the result.
+flashdreams	flashdreams	https://github.com/NVIDIA/flashdreams.git	git@github.com:williamgao07/flashdreams.git	dev	a1691c4d9cb693e60edf9a0cc71137b162b5018d
+cosmos-transfer2.5	cosmos-transfer2.5	https://github.com/nvidia-cosmos/cosmos-transfer2.5.git	git@github.com:williamgao07/cosmos-transfer2.5.git	dev	b06a3c72c7c7121b5801ebe00aacaafc7e580553
+qwen-drive	qwen-drive	https://github.com/QwenLM/Qwen-Drive-1.0	git@github.com:williamgao07/Qwen-Drive-1.0.git	dev	61ba472cb68b9f9984c9ac892a661339ad866689
+omni-dreams	omni-dreams	https://github.com/nv-tlabs/omni-dreams.git	-	main	cd85f399190393a6f5247b2c080b2cdd7a0adff7
