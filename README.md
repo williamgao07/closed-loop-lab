@@ -19,8 +19,10 @@ layout above becomes `work/closed-loop-lab`, `work/flashdreams`,
 `work/qwen-drive`, and so on. Override with `LAB_ROOT` if you want them
 elsewhere; `bootstrap.sh` and `env.sh` both honour it.
 
-Then follow **`$FLASHDREAMS_DEV/CLOSED_LOOP_EVAL.md` §0** for the per-checkout
-CUDA toolchain, and §4 to run the closed-loop client.
+New here? Read **[GETTING_STARTED.md](GETTING_STARTED.md)** first — what the
+system is, which order to try things in, and how to tell a real result from an
+artifact of the setup. Then **`$FLASHDREAMS_DEV/CLOSED_LOOP_EVAL.md` §0** for the
+per-checkout CUDA toolchain, and §4 to run the closed-loop client.
 
 ## The repos
 
