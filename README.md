@@ -8,10 +8,16 @@ Start here, not in a checkout: `CLOSED_LOOP_EVAL.md` assumes an environment that
 this sets up.
 
 ```bash
-git clone <this repo> && cd closed-loop-lab
+git clone git@github.com:williamgao07/closed-loop-lab.git
+cd closed-loop-lab
 ./bootstrap.sh          # clone/verify all four repos at their pinned commits
 source env.sh           # $FLASHDREAMS, $QWEN_DRIVE, $COSMOS, $OMNI_DREAMS, $HF_TOKEN
 ```
+
+The four repos are cloned as **siblings of this one**, not inside it — so the
+layout above becomes `work/closed-loop-lab`, `work/flashdreams`,
+`work/qwen-drive`, and so on. Override with `LAB_ROOT` if you want them
+elsewhere; `bootstrap.sh` and `env.sh` both honour it.
 
 Then follow **`$FLASHDREAMS_DEV/CLOSED_LOOP_EVAL.md` §0** for the per-checkout
 CUDA toolchain, and §4 to run the closed-loop client.
